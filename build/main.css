@@ -4,9 +4,10 @@
 
 :root {
   --black: #121212;
-  --blue: ;
+  --blue: dodgerblue;
   --gray: #9ca3af;
-  --red: ;
+  --red: crimson;
+  --purple: mediumpurple;
   --white: #f1f5f9;
   --off-white: #e5e7eb;
   
@@ -557,17 +558,17 @@ label {
   -webkit-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
 }
-#minting-dapp .collection-status {
+#minting-dapp .collection-status, section {
   display: grid;
   grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 @media (min-width: 640px) {
-  #minting-dapp .collection-status {
+  #minting-dapp .collection-status, section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-#minting-dapp .collection-status {
+#minting-dapp .collection-status, section {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
   --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
@@ -583,7 +584,7 @@ label {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-#minting-dapp .collection-status > * {
+#minting-dapp .collection-status, section > * {
   align-items: center;
   display: flex;
   flex-direction: column;
