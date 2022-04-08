@@ -12,7 +12,7 @@
   
   --bg: ;
   --text: ;
-  --box-shadow: ;
+  --box-shadow: 0 2px 6px 0;
   
   --font-system: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
   Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
@@ -322,8 +322,8 @@ span.emoji {
 .error {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   --tw-text-opacity: 1;
   background-color: rgb(254 242 242 / var(--tw-bg-opacity));
@@ -452,8 +452,8 @@ label {
 #minting-dapp .no-wallet {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   border-color: rgb(248 250 252 / var(--tw-border-opacity));
@@ -517,8 +517,8 @@ label {
 #minting-dapp .collection-not-ready {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) 0 var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   border-color: rgb(248 250 252 / var(--tw-border-opacity));
@@ -566,8 +566,8 @@ label {
 #minting-dapp .collection-status {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   border-color: rgb(248 250 252 / var(--tw-border-opacity));
@@ -634,8 +634,8 @@ label {
 #minting-dapp .not-mainnet {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   border-color: rgb(248 250 252 / var(--tw-border-opacity));
@@ -680,8 +680,8 @@ label {
 }
 #minting-dapp .mint-widget {
   --tw-bg-opacity: 1;
-  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+  --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: var(--box-shadow) 0 var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   align-items: center;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
