@@ -318,6 +318,7 @@ main {
 span.emoji {
   font-size: 1.5rem;
   line-height: 2rem;
+  margin-bottom: 1rem;
 }
 .error {
   --tw-bg-opacity: 1;
