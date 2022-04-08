@@ -558,17 +558,17 @@ label {
   -webkit-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
 }
-#minting-dapp .collection-status, section {
+#minting-dapp .collection-status {
   display: grid;
   grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 @media (min-width: 640px) {
-  #minting-dapp .collection-status, section {
+  #minting-dapp .collection-status {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-#minting-dapp .collection-status, section {
+#minting-dapp .collection-status {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
   --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
@@ -584,7 +584,7 @@ label {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-#minting-dapp .collection-status, section > * {
+#minting-dapp .collection-status > * {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -744,4 +744,14 @@ label {
 }
 #minting-dapp .mint-widget .controls .primary {
   border-width: 0;
+}
+
+.bio {
+  --tw-text-opacity: 1;
+  align-items: center;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  width: 100%;
 }
