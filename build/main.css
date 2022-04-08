@@ -636,7 +636,8 @@ label {
 }
 #minting-dapp .cannot-mint,
 #minting-dapp .collection-sold-out,
-#minting-dapp .not-mainnet {
+#minting-dapp .not-mainnet,
+#minting-dapp .bio {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
   --tw-shadow: var(--box-shadow) rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
@@ -745,7 +746,7 @@ label {
 #minting-dapp .mint-widget .controls .primary {
   border-width: 0;
 }
-
+/*
 .bio {
   --tw-bg-opacity: 1;
   --tw-border-opacity: 1;
@@ -761,4 +762,4 @@ label {
   font-size: 0.875rem;
   line-height: 1.25rem;
   padding: 1rem 1.5rem;
-}
+}*/
